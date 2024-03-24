@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#90DECA ,#F7F3D3);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://images.tv9telugu.com/wp-content/uploads/2023/05/nani-5.jpg");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://scontent.fhyd11-2.fna.fbcdn.net/v/t1.18169-9/10590567_645010002284758_4802407661638521114_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=f4dtcS-2KJwAX-eCOGm&_nc_ht=scontent.fhyd11-2.fna&oh=00_AfBNbcDUhvMKORwkk5BqwVtoz4arxgYb7YFudefl8XrukQ&oe=66273704");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://preview.redd.it/15-years-for-ashta-chamma-15-years-of-nani-v0-evdroizz5emb1.jpg?width=640&crop=smart&auto=webp&s=38ec05a16b471625372ef6b1e139020c859df325");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202303/nani_dasara_movie_review-one_one.jpg?VersionId=r87kkg_JmSiBswT4YDfQuuPM5ev4ZWmj");
+    
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202401/nani-172910637-16x9_0.jpg?VersionId=_sVSqFtafG5r5KUAMH77OBu3jhHHkFMj&size=690:388");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
